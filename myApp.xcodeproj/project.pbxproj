@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AD8BB501E4BE6F700E0EBB2 /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8BB4F1E4BE6F700E0EBB2 /* PhotoDetailsViewController.swift */; };
 		9A51A2EF6350DBE0189BDFC4 /* Pods_myApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5FC8B9AD28D5F69D3663275 /* Pods_myApp.framework */; };
 		C62A48371E42A3ED001D15A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62A48361E42A3ED001D15A4 /* AppDelegate.swift */; };
 		C62A483C1E42A3ED001D15A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C62A483A1E42A3ED001D15A4 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0AD8BB4F1E4BE6F700E0EBB2 /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
 		9A30D15BF6CFA98A26A3A3D7 /* Pods-myApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-myApp/Pods-myApp.release.xcconfig"; sourceTree = "<group>"; };
 		C62A48331E42A3ED001D15A4 /* myApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C62A48361E42A3ED001D15A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 		C62A484C1E42AC29001D15A4 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				0AD8BB4F1E4BE6F700E0EBB2 /* PhotoDetailsViewController.swift */,
 				C62A484A1E42A8CB001D15A4 /* PhotosViewController.swift */,
 			);
 			name = "View Controllers";
@@ -231,6 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AD8BB501E4BE6F700E0EBB2 /* PhotoDetailsViewController.swift in Sources */,
 				C62A48371E42A3ED001D15A4 /* AppDelegate.swift in Sources */,
 				C62A484E1E42AC7B001D15A4 /* PhotoCell.swift in Sources */,
 				C62A484B1E42A8CB001D15A4 /* PhotosViewController.swift in Sources */,
